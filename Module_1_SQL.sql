@@ -399,7 +399,6 @@ INNER JOIN Order_Details od ON o.order_id = od.order_id;
 
 -- SQL Commands --
 
-/* Assignment Created by Sugata Mondal */
 
 /* 1-Identify the primary keys and foreign keys in maven movies db. Discuss the differences */
 
@@ -601,7 +600,6 @@ FROM customer c
 JOIN payment p ON c.customer_id = p.customer_id
 GROUP BY c.customer_id;
 
-/* Assignment Created by Sugata Mondal */
 
 /*Question 12:**
 List the titles of movies rented by each customer in a particular city (e.g., 'London').*/
@@ -888,7 +886,6 @@ SELECT first_name, last_name, film_count
 FROM actor_films
 ORDER BY film_count DESC;
 
-/* Assignment Created by Sugata Mondal */
 
 /*Question 5: CTE Basics**
 Retrieve the distinct list of actor names and the number of films they have acted in:*/
